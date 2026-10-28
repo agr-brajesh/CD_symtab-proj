@@ -1,0 +1,561 @@
+hash,strategy,design,max_depth,rep,scope_ops,resolves,ns_per_scope_op,table_lookups_per_resolve,table_probes_per_resolve,ok
+djb2,Separate Chaining,name@depth,1,0,9859,2868,172.72,1.611,0.842,1
+djb2,Separate Chaining,name@depth,1,1,9859,2868,126.99,1.611,0.842,1
+djb2,Separate Chaining,name@depth,1,2,9859,2868,128.22,1.611,0.842,1
+djb2,Separate Chaining,name@depth,1,3,9859,2868,142.29,1.611,0.842,1
+djb2,Separate Chaining,name@depth,1,4,9859,2868,121.03,1.611,0.842,1
+djb2,Separate Chaining,name@depth,1,5,9859,2868,128.81,1.611,0.842,1
+djb2,Separate Chaining,name@depth,1,6,9859,2868,132.03,1.611,0.842,1
+djb2,Separate Chaining,shadow-chain,1,0,9859,2868,83.99,1.000,0.804,1
+djb2,Separate Chaining,shadow-chain,1,1,9859,2868,106.91,1.000,0.804,1
+djb2,Separate Chaining,shadow-chain,1,2,9859,2868,113.08,1.000,0.804,1
+djb2,Separate Chaining,shadow-chain,1,3,9859,2868,110.81,1.000,0.804,1
+djb2,Separate Chaining,shadow-chain,1,4,9859,2868,110.12,1.000,0.804,1
+djb2,Separate Chaining,shadow-chain,1,5,9859,2868,81.37,1.000,0.804,1
+djb2,Separate Chaining,shadow-chain,1,6,9859,2868,83.35,1.000,0.804,1
+djb2,Linear Probing,name@depth,1,0,9859,2868,156.39,1.611,3.308,1
+djb2,Linear Probing,name@depth,1,1,9859,2868,158.56,1.611,3.308,1
+djb2,Linear Probing,name@depth,1,2,9859,2868,142.24,1.611,3.308,1
+djb2,Linear Probing,name@depth,1,3,9859,2868,138.14,1.611,3.308,1
+djb2,Linear Probing,name@depth,1,4,9859,2868,149.19,1.611,3.308,1
+djb2,Linear Probing,name@depth,1,5,9859,2868,203.41,1.611,3.308,1
+djb2,Linear Probing,name@depth,1,6,9859,2868,212.92,1.611,3.308,1
+djb2,Linear Probing,shadow-chain,1,0,9859,2868,142.25,1.000,1.207,1
+djb2,Linear Probing,shadow-chain,1,1,9859,2868,144.95,1.000,1.207,1
+djb2,Linear Probing,shadow-chain,1,2,9859,2868,140.55,1.000,1.207,1
+djb2,Linear Probing,shadow-chain,1,3,9859,2868,142.01,1.000,1.207,1
+djb2,Linear Probing,shadow-chain,1,4,9859,2868,140.11,1.000,1.207,1
+djb2,Linear Probing,shadow-chain,1,5,9859,2868,136.38,1.000,1.207,1
+djb2,Linear Probing,shadow-chain,1,6,9859,2868,132.64,1.000,1.207,1
+djb2,Quadratic Probing,name@depth,1,0,9859,2868,151.87,1.611,3.076,1
+djb2,Quadratic Probing,name@depth,1,1,9859,2868,151.17,1.611,3.076,1
+djb2,Quadratic Probing,name@depth,1,2,9859,2868,158.83,1.611,3.076,1
+djb2,Quadratic Probing,name@depth,1,3,9859,2868,155.79,1.611,3.076,1
+djb2,Quadratic Probing,name@depth,1,4,9859,2868,155.87,1.611,3.076,1
+djb2,Quadratic Probing,name@depth,1,5,9859,2868,160.69,1.611,3.076,1
+djb2,Quadratic Probing,name@depth,1,6,9859,2868,156.46,1.611,3.076,1
+djb2,Quadratic Probing,shadow-chain,1,0,9859,2868,106.00,1.000,1.184,1
+djb2,Quadratic Probing,shadow-chain,1,1,9859,2868,108.36,1.000,1.184,1
+djb2,Quadratic Probing,shadow-chain,1,2,9859,2868,99.49,1.000,1.184,1
+djb2,Quadratic Probing,shadow-chain,1,3,9859,2868,107.08,1.000,1.184,1
+djb2,Quadratic Probing,shadow-chain,1,4,9859,2868,142.87,1.000,1.184,1
+djb2,Quadratic Probing,shadow-chain,1,5,9859,2868,106.56,1.000,1.184,1
+djb2,Quadratic Probing,shadow-chain,1,6,9859,2868,99.02,1.000,1.184,1
+djb2,Double Hashing,name@depth,1,0,9859,2868,215.31,1.611,3.074,1
+djb2,Double Hashing,name@depth,1,1,9859,2868,161.34,1.611,3.074,1
+djb2,Double Hashing,name@depth,1,2,9859,2868,172.66,1.611,3.074,1
+djb2,Double Hashing,name@depth,1,3,9859,2868,320.32,1.611,3.074,1
+djb2,Double Hashing,name@depth,1,4,9859,2868,184.47,1.611,3.074,1
+djb2,Double Hashing,name@depth,1,5,9859,2868,171.24,1.611,3.074,1
+djb2,Double Hashing,name@depth,1,6,9859,2868,163.43,1.611,3.074,1
+djb2,Double Hashing,shadow-chain,1,0,9859,2868,118.57,1.000,1.178,1
+djb2,Double Hashing,shadow-chain,1,1,9859,2868,117.59,1.000,1.178,1
+djb2,Double Hashing,shadow-chain,1,2,9859,2868,157.76,1.000,1.178,1
+djb2,Double Hashing,shadow-chain,1,3,9859,2868,124.91,1.000,1.178,1
+djb2,Double Hashing,shadow-chain,1,4,9859,2868,157.96,1.000,1.178,1
+djb2,Double Hashing,shadow-chain,1,5,9859,2868,115.41,1.000,1.178,1
+djb2,Double Hashing,shadow-chain,1,6,9859,2868,134.84,1.000,1.178,1
+djb2,Robin Hood Hashing,name@depth,1,0,9859,2868,213.37,1.611,1.703,1
+djb2,Robin Hood Hashing,name@depth,1,1,9859,2868,129.76,1.611,1.703,1
+djb2,Robin Hood Hashing,name@depth,1,2,9859,2868,128.28,1.611,1.703,1
+djb2,Robin Hood Hashing,name@depth,1,3,9859,2868,129.20,1.611,1.703,1
+djb2,Robin Hood Hashing,name@depth,1,4,9859,2868,134.96,1.611,1.703,1
+djb2,Robin Hood Hashing,name@depth,1,5,9859,2868,130.22,1.611,1.703,1
+djb2,Robin Hood Hashing,name@depth,1,6,9859,2868,202.68,1.611,1.703,1
+djb2,Robin Hood Hashing,shadow-chain,1,0,9859,2868,154.27,1.000,1.025,1
+djb2,Robin Hood Hashing,shadow-chain,1,1,9859,2868,77.89,1.000,1.025,1
+djb2,Robin Hood Hashing,shadow-chain,1,2,9859,2868,73.86,1.000,1.025,1
+djb2,Robin Hood Hashing,shadow-chain,1,3,9859,2868,70.43,1.000,1.025,1
+djb2,Robin Hood Hashing,shadow-chain,1,4,9859,2868,70.27,1.000,1.025,1
+djb2,Robin Hood Hashing,shadow-chain,1,5,9859,2868,71.78,1.000,1.025,1
+djb2,Robin Hood Hashing,shadow-chain,1,6,9859,2868,72.82,1.000,1.025,1
+djb2,H1: Chaining + Tree,name@depth,1,0,9859,2868,138.17,1.611,0.842,1
+djb2,H1: Chaining + Tree,name@depth,1,1,9859,2868,138.65,1.611,0.842,1
+djb2,H1: Chaining + Tree,name@depth,1,2,9859,2868,135.77,1.611,0.842,1
+djb2,H1: Chaining + Tree,name@depth,1,3,9859,2868,134.13,1.611,0.842,1
+djb2,H1: Chaining + Tree,name@depth,1,4,9859,2868,121.75,1.611,0.842,1
+djb2,H1: Chaining + Tree,name@depth,1,5,9859,2868,126.72,1.611,0.842,1
+djb2,H1: Chaining + Tree,name@depth,1,6,9859,2868,120.02,1.611,0.842,1
+djb2,H1: Chaining + Tree,shadow-chain,1,0,9859,2868,78.54,1.000,0.804,1
+djb2,H1: Chaining + Tree,shadow-chain,1,1,9859,2868,76.34,1.000,0.804,1
+djb2,H1: Chaining + Tree,shadow-chain,1,2,9859,2868,82.82,1.000,0.804,1
+djb2,H1: Chaining + Tree,shadow-chain,1,3,9859,2868,77.74,1.000,0.804,1
+djb2,H1: Chaining + Tree,shadow-chain,1,4,9859,2868,78.18,1.000,0.804,1
+djb2,H1: Chaining + Tree,shadow-chain,1,5,9859,2868,77.03,1.000,0.804,1
+djb2,H1: Chaining + Tree,shadow-chain,1,6,9859,2868,71.64,1.000,0.804,1
+djb2,H2: Open Addr + Overflow,name@depth,1,0,9859,2868,151.23,1.611,3.184,1
+djb2,H2: Open Addr + Overflow,name@depth,1,1,9859,2868,156.69,1.611,3.184,1
+djb2,H2: Open Addr + Overflow,name@depth,1,2,9859,2868,156.04,1.611,3.184,1
+djb2,H2: Open Addr + Overflow,name@depth,1,3,9859,2868,161.52,1.611,3.184,1
+djb2,H2: Open Addr + Overflow,name@depth,1,4,9859,2868,152.50,1.611,3.184,1
+djb2,H2: Open Addr + Overflow,name@depth,1,5,9859,2868,156.18,1.611,3.184,1
+djb2,H2: Open Addr + Overflow,name@depth,1,6,9859,2868,149.99,1.611,3.184,1
+djb2,H2: Open Addr + Overflow,shadow-chain,1,0,9859,2868,96.69,1.000,1.206,1
+djb2,H2: Open Addr + Overflow,shadow-chain,1,1,9859,2868,94.01,1.000,1.206,1
+djb2,H2: Open Addr + Overflow,shadow-chain,1,2,9859,2868,94.08,1.000,1.206,1
+djb2,H2: Open Addr + Overflow,shadow-chain,1,3,9859,2868,96.35,1.000,1.206,1
+djb2,H2: Open Addr + Overflow,shadow-chain,1,4,9859,2868,93.79,1.000,1.206,1
+djb2,H2: Open Addr + Overflow,shadow-chain,1,5,9859,2868,94.64,1.000,1.206,1
+djb2,H2: Open Addr + Overflow,shadow-chain,1,6,9859,2868,95.51,1.000,1.206,1
+djb2,H3: Cuckoo + Stash,name@depth,1,0,9859,2868,178.77,1.611,7.446,1
+djb2,H3: Cuckoo + Stash,name@depth,1,1,9859,2868,176.42,1.611,7.446,1
+djb2,H3: Cuckoo + Stash,name@depth,1,2,9859,2868,174.87,1.611,7.446,1
+djb2,H3: Cuckoo + Stash,name@depth,1,3,9859,2868,174.95,1.611,7.446,1
+djb2,H3: Cuckoo + Stash,name@depth,1,4,9859,2868,166.34,1.611,7.446,1
+djb2,H3: Cuckoo + Stash,name@depth,1,5,9859,2868,169.74,1.611,7.446,1
+djb2,H3: Cuckoo + Stash,name@depth,1,6,9859,2868,169.25,1.611,7.446,1
+djb2,H3: Cuckoo + Stash,shadow-chain,1,0,9859,2868,120.58,1.000,2.551,1
+djb2,H3: Cuckoo + Stash,shadow-chain,1,1,9859,2868,121.54,1.000,2.551,1
+djb2,H3: Cuckoo + Stash,shadow-chain,1,2,9859,2868,139.57,1.000,2.551,1
+djb2,H3: Cuckoo + Stash,shadow-chain,1,3,9859,2868,127.10,1.000,2.551,1
+djb2,H3: Cuckoo + Stash,shadow-chain,1,4,9859,2868,182.64,1.000,2.551,1
+djb2,H3: Cuckoo + Stash,shadow-chain,1,5,9859,2868,133.57,1.000,2.551,1
+djb2,H3: Cuckoo + Stash,shadow-chain,1,6,9859,2868,145.47,1.000,2.551,1
+djb2,Separate Chaining,name@depth,2,0,13764,5757,120.06,1.880,0.866,1
+djb2,Separate Chaining,name@depth,2,1,13764,5757,121.17,1.880,0.866,1
+djb2,Separate Chaining,name@depth,2,2,13764,5757,125.07,1.880,0.866,1
+djb2,Separate Chaining,name@depth,2,3,13764,5757,126.01,1.880,0.866,1
+djb2,Separate Chaining,name@depth,2,4,13764,5757,118.79,1.880,0.866,1
+djb2,Separate Chaining,name@depth,2,5,13764,5757,120.50,1.880,0.866,1
+djb2,Separate Chaining,name@depth,2,6,13764,5757,116.28,1.880,0.866,1
+djb2,Separate Chaining,shadow-chain,2,0,13764,5757,62.15,1.000,0.822,1
+djb2,Separate Chaining,shadow-chain,2,1,13764,5757,60.46,1.000,0.822,1
+djb2,Separate Chaining,shadow-chain,2,2,13764,5757,59.77,1.000,0.822,1
+djb2,Separate Chaining,shadow-chain,2,3,13764,5757,58.39,1.000,0.822,1
+djb2,Separate Chaining,shadow-chain,2,4,13764,5757,58.98,1.000,0.822,1
+djb2,Separate Chaining,shadow-chain,2,5,13764,5757,60.75,1.000,0.822,1
+djb2,Separate Chaining,shadow-chain,2,6,13764,5757,59.70,1.000,0.822,1
+djb2,Linear Probing,name@depth,2,0,13764,5757,140.78,1.880,3.673,1
+djb2,Linear Probing,name@depth,2,1,13764,5757,147.31,1.880,3.673,1
+djb2,Linear Probing,name@depth,2,2,13764,5757,146.37,1.880,3.673,1
+djb2,Linear Probing,name@depth,2,3,13764,5757,140.12,1.880,3.673,1
+djb2,Linear Probing,name@depth,2,4,13764,5757,140.85,1.880,3.673,1
+djb2,Linear Probing,name@depth,2,5,13764,5757,140.20,1.880,3.673,1
+djb2,Linear Probing,name@depth,2,6,13764,5757,154.03,1.880,3.673,1
+djb2,Linear Probing,shadow-chain,2,0,13764,5757,80.44,1.000,1.192,1
+djb2,Linear Probing,shadow-chain,2,1,13764,5757,80.56,1.000,1.192,1
+djb2,Linear Probing,shadow-chain,2,2,13764,5757,78.97,1.000,1.192,1
+djb2,Linear Probing,shadow-chain,2,3,13764,5757,78.80,1.000,1.192,1
+djb2,Linear Probing,shadow-chain,2,4,13764,5757,79.73,1.000,1.192,1
+djb2,Linear Probing,shadow-chain,2,5,13764,5757,82.04,1.000,1.192,1
+djb2,Linear Probing,shadow-chain,2,6,13764,5757,78.41,1.000,1.192,1
+djb2,Quadratic Probing,name@depth,2,0,13764,5757,141.19,1.880,3.436,1
+djb2,Quadratic Probing,name@depth,2,1,13764,5757,138.90,1.880,3.436,1
+djb2,Quadratic Probing,name@depth,2,2,13764,5757,139.94,1.880,3.436,1
+djb2,Quadratic Probing,name@depth,2,3,13764,5757,140.36,1.880,3.436,1
+djb2,Quadratic Probing,name@depth,2,4,13764,5757,142.88,1.880,3.436,1
+djb2,Quadratic Probing,name@depth,2,5,13764,5757,141.55,1.880,3.436,1
+djb2,Quadratic Probing,name@depth,2,6,13764,5757,145.73,1.880,3.436,1
+djb2,Quadratic Probing,shadow-chain,2,0,13764,5757,82.98,1.000,1.181,1
+djb2,Quadratic Probing,shadow-chain,2,1,13764,5757,82.20,1.000,1.181,1
+djb2,Quadratic Probing,shadow-chain,2,2,13764,5757,79.27,1.000,1.181,1
+djb2,Quadratic Probing,shadow-chain,2,3,13764,5757,86.76,1.000,1.181,1
+djb2,Quadratic Probing,shadow-chain,2,4,13764,5757,89.30,1.000,1.181,1
+djb2,Quadratic Probing,shadow-chain,2,5,13764,5757,88.01,1.000,1.181,1
+djb2,Quadratic Probing,shadow-chain,2,6,13764,5757,92.48,1.000,1.181,1
+djb2,Double Hashing,name@depth,2,0,13764,5757,161.59,1.880,3.327,1
+djb2,Double Hashing,name@depth,2,1,13764,5757,164.36,1.880,3.327,1
+djb2,Double Hashing,name@depth,2,2,13764,5757,168.03,1.880,3.327,1
+djb2,Double Hashing,name@depth,2,3,13764,5757,165.00,1.880,3.327,1
+djb2,Double Hashing,name@depth,2,4,13764,5757,170.45,1.880,3.327,1
+djb2,Double Hashing,name@depth,2,5,13764,5757,151.35,1.880,3.327,1
+djb2,Double Hashing,name@depth,2,6,13764,5757,148.48,1.880,3.327,1
+djb2,Double Hashing,shadow-chain,2,0,13764,5757,91.43,1.000,1.187,1
+djb2,Double Hashing,shadow-chain,2,1,13764,5757,94.78,1.000,1.187,1
+djb2,Double Hashing,shadow-chain,2,2,13764,5757,98.62,1.000,1.187,1
+djb2,Double Hashing,shadow-chain,2,3,13764,5757,105.78,1.000,1.187,1
+djb2,Double Hashing,shadow-chain,2,4,13764,5757,100.56,1.000,1.187,1
+djb2,Double Hashing,shadow-chain,2,5,13764,5757,99.32,1.000,1.187,1
+djb2,Double Hashing,shadow-chain,2,6,13764,5757,102.43,1.000,1.187,1
+djb2,Robin Hood Hashing,name@depth,2,0,13764,5757,115.36,1.880,1.981,1
+djb2,Robin Hood Hashing,name@depth,2,1,13764,5757,173.46,1.880,1.981,1
+djb2,Robin Hood Hashing,name@depth,2,2,13764,5757,159.41,1.880,1.981,1
+djb2,Robin Hood Hashing,name@depth,2,3,13764,5757,141.08,1.880,1.981,1
+djb2,Robin Hood Hashing,name@depth,2,4,13764,5757,108.50,1.880,1.981,1
+djb2,Robin Hood Hashing,name@depth,2,5,13764,5757,122.31,1.880,1.981,1
+djb2,Robin Hood Hashing,name@depth,2,6,13764,5757,108.05,1.880,1.981,1
+djb2,Robin Hood Hashing,shadow-chain,2,0,13764,5757,64.62,1.000,1.032,1
+djb2,Robin Hood Hashing,shadow-chain,2,1,13764,5757,58.91,1.000,1.032,1
+djb2,Robin Hood Hashing,shadow-chain,2,2,13764,5757,57.26,1.000,1.032,1
+djb2,Robin Hood Hashing,shadow-chain,2,3,13764,5757,57.14,1.000,1.032,1
+djb2,Robin Hood Hashing,shadow-chain,2,4,13764,5757,57.17,1.000,1.032,1
+djb2,Robin Hood Hashing,shadow-chain,2,5,13764,5757,59.15,1.000,1.032,1
+djb2,Robin Hood Hashing,shadow-chain,2,6,13764,5757,58.45,1.000,1.032,1
+djb2,H1: Chaining + Tree,name@depth,2,0,13764,5757,136.26,1.880,0.866,1
+djb2,H1: Chaining + Tree,name@depth,2,1,13764,5757,122.38,1.880,0.866,1
+djb2,H1: Chaining + Tree,name@depth,2,2,13764,5757,174.26,1.880,0.866,1
+djb2,H1: Chaining + Tree,name@depth,2,3,13764,5757,170.84,1.880,0.866,1
+djb2,H1: Chaining + Tree,name@depth,2,4,13764,5757,142.23,1.880,0.866,1
+djb2,H1: Chaining + Tree,name@depth,2,5,13764,5757,125.05,1.880,0.866,1
+djb2,H1: Chaining + Tree,name@depth,2,6,13764,5757,124.10,1.880,0.866,1
+djb2,H1: Chaining + Tree,shadow-chain,2,0,13764,5757,64.92,1.000,0.822,1
+djb2,H1: Chaining + Tree,shadow-chain,2,1,13764,5757,63.40,1.000,0.822,1
+djb2,H1: Chaining + Tree,shadow-chain,2,2,13764,5757,78.60,1.000,0.822,1
+djb2,H1: Chaining + Tree,shadow-chain,2,3,13764,5757,64.44,1.000,0.822,1
+djb2,H1: Chaining + Tree,shadow-chain,2,4,13764,5757,64.64,1.000,0.822,1
+djb2,H1: Chaining + Tree,shadow-chain,2,5,13764,5757,64.75,1.000,0.822,1
+djb2,H1: Chaining + Tree,shadow-chain,2,6,13764,5757,112.84,1.000,0.822,1
+djb2,H2: Open Addr + Overflow,name@depth,2,0,13764,5757,143.58,1.880,3.555,1
+djb2,H2: Open Addr + Overflow,name@depth,2,1,13764,5757,155.06,1.880,3.555,1
+djb2,H2: Open Addr + Overflow,name@depth,2,2,13764,5757,143.09,1.880,3.555,1
+djb2,H2: Open Addr + Overflow,name@depth,2,3,13764,5757,139.73,1.880,3.555,1
+djb2,H2: Open Addr + Overflow,name@depth,2,4,13764,5757,204.41,1.880,3.555,1
+djb2,H2: Open Addr + Overflow,name@depth,2,5,13764,5757,138.73,1.880,3.555,1
+djb2,H2: Open Addr + Overflow,name@depth,2,6,13764,5757,146.52,1.880,3.555,1
+djb2,H2: Open Addr + Overflow,shadow-chain,2,0,13764,5757,79.78,1.000,1.192,1
+djb2,H2: Open Addr + Overflow,shadow-chain,2,1,13764,5757,78.59,1.000,1.192,1
+djb2,H2: Open Addr + Overflow,shadow-chain,2,2,13764,5757,75.77,1.000,1.192,1
+djb2,H2: Open Addr + Overflow,shadow-chain,2,3,13764,5757,78.51,1.000,1.192,1
+djb2,H2: Open Addr + Overflow,shadow-chain,2,4,13764,5757,75.94,1.000,1.192,1
+djb2,H2: Open Addr + Overflow,shadow-chain,2,5,13764,5757,74.87,1.000,1.192,1
+djb2,H2: Open Addr + Overflow,shadow-chain,2,6,13764,5757,75.94,1.000,1.192,1
+djb2,H3: Cuckoo + Stash,name@depth,2,0,13764,5757,165.74,1.880,9.532,1
+djb2,H3: Cuckoo + Stash,name@depth,2,1,13764,5757,161.05,1.880,9.532,1
+djb2,H3: Cuckoo + Stash,name@depth,2,2,13764,5757,166.82,1.880,9.532,1
+djb2,H3: Cuckoo + Stash,name@depth,2,3,13764,5757,162.74,1.880,9.532,1
+djb2,H3: Cuckoo + Stash,name@depth,2,4,13764,5757,175.49,1.880,9.532,1
+djb2,H3: Cuckoo + Stash,name@depth,2,5,13764,5757,173.70,1.880,9.532,1
+djb2,H3: Cuckoo + Stash,name@depth,2,6,13764,5757,178.22,1.880,9.532,1
+djb2,H3: Cuckoo + Stash,shadow-chain,2,0,13764,5757,124.55,1.000,2.474,1
+djb2,H3: Cuckoo + Stash,shadow-chain,2,1,13764,5757,119.14,1.000,2.474,1
+djb2,H3: Cuckoo + Stash,shadow-chain,2,2,13764,5757,117.78,1.000,2.474,1
+djb2,H3: Cuckoo + Stash,shadow-chain,2,3,13764,5757,120.53,1.000,2.474,1
+djb2,H3: Cuckoo + Stash,shadow-chain,2,4,13764,5757,122.35,1.000,2.474,1
+djb2,H3: Cuckoo + Stash,shadow-chain,2,5,13764,5757,111.30,1.000,2.474,1
+djb2,H3: Cuckoo + Stash,shadow-chain,2,6,13764,5757,110.57,1.000,2.474,1
+djb2,Separate Chaining,name@depth,4,0,21413,11503,140.00,2.452,0.910,1
+djb2,Separate Chaining,name@depth,4,1,21413,11503,138.09,2.452,0.910,1
+djb2,Separate Chaining,name@depth,4,2,21413,11503,126.65,2.452,0.910,1
+djb2,Separate Chaining,name@depth,4,3,21413,11503,124.53,2.452,0.910,1
+djb2,Separate Chaining,name@depth,4,4,21413,11503,125.94,2.452,0.910,1
+djb2,Separate Chaining,name@depth,4,5,21413,11503,126.39,2.452,0.910,1
+djb2,Separate Chaining,name@depth,4,6,21413,11503,126.80,2.452,0.910,1
+djb2,Separate Chaining,shadow-chain,4,0,21413,11503,58.19,1.000,0.828,1
+djb2,Separate Chaining,shadow-chain,4,1,21413,11503,58.44,1.000,0.828,1
+djb2,Separate Chaining,shadow-chain,4,2,21413,11503,63.52,1.000,0.828,1
+djb2,Separate Chaining,shadow-chain,4,3,21413,11503,82.81,1.000,0.828,1
+djb2,Separate Chaining,shadow-chain,4,4,21413,11503,81.53,1.000,0.828,1
+djb2,Separate Chaining,shadow-chain,4,5,21413,11503,63.95,1.000,0.828,1
+djb2,Separate Chaining,shadow-chain,4,6,21413,11503,58.70,1.000,0.828,1
+djb2,Linear Probing,name@depth,4,0,21413,11503,207.45,2.452,4.958,1
+djb2,Linear Probing,name@depth,4,1,21413,11503,178.70,2.452,4.958,1
+djb2,Linear Probing,name@depth,4,2,21413,11503,171.88,2.452,4.958,1
+djb2,Linear Probing,name@depth,4,3,21413,11503,172.51,2.452,4.958,1
+djb2,Linear Probing,name@depth,4,4,21413,11503,174.94,2.452,4.958,1
+djb2,Linear Probing,name@depth,4,5,21413,11503,179.63,2.452,4.958,1
+djb2,Linear Probing,name@depth,4,6,21413,11503,154.32,2.452,4.958,1
+djb2,Linear Probing,shadow-chain,4,0,21413,11503,72.93,1.000,1.216,1
+djb2,Linear Probing,shadow-chain,4,1,21413,11503,75.27,1.000,1.216,1
+djb2,Linear Probing,shadow-chain,4,2,21413,11503,79.49,1.000,1.216,1
+djb2,Linear Probing,shadow-chain,4,3,21413,11503,76.27,1.000,1.216,1
+djb2,Linear Probing,shadow-chain,4,4,21413,11503,73.08,1.000,1.216,1
+djb2,Linear Probing,shadow-chain,4,5,21413,11503,78.16,1.000,1.216,1
+djb2,Linear Probing,shadow-chain,4,6,21413,11503,76.28,1.000,1.216,1
+djb2,Quadratic Probing,name@depth,4,0,21413,11503,177.53,2.452,4.561,1
+djb2,Quadratic Probing,name@depth,4,1,21413,11503,161.27,2.452,4.561,1
+djb2,Quadratic Probing,name@depth,4,2,21413,11503,168.73,2.452,4.561,1
+djb2,Quadratic Probing,name@depth,4,3,21413,11503,159.41,2.452,4.561,1
+djb2,Quadratic Probing,name@depth,4,4,21413,11503,160.33,2.452,4.561,1
+djb2,Quadratic Probing,name@depth,4,5,21413,11503,165.89,2.452,4.561,1
+djb2,Quadratic Probing,name@depth,4,6,21413,11503,160.69,2.452,4.561,1
+djb2,Quadratic Probing,shadow-chain,4,0,21413,11503,75.96,1.000,1.200,1
+djb2,Quadratic Probing,shadow-chain,4,1,21413,11503,75.93,1.000,1.200,1
+djb2,Quadratic Probing,shadow-chain,4,2,21413,11503,76.26,1.000,1.200,1
+djb2,Quadratic Probing,shadow-chain,4,3,21413,11503,78.55,1.000,1.200,1
+djb2,Quadratic Probing,shadow-chain,4,4,21413,11503,75.98,1.000,1.200,1
+djb2,Quadratic Probing,shadow-chain,4,5,21413,11503,74.25,1.000,1.200,1
+djb2,Quadratic Probing,shadow-chain,4,6,21413,11503,74.89,1.000,1.200,1
+djb2,Double Hashing,name@depth,4,0,21413,11503,170.23,2.452,4.373,1
+djb2,Double Hashing,name@depth,4,1,21413,11503,180.72,2.452,4.373,1
+djb2,Double Hashing,name@depth,4,2,21413,11503,189.59,2.452,4.373,1
+djb2,Double Hashing,name@depth,4,3,21413,11503,184.28,2.452,4.373,1
+djb2,Double Hashing,name@depth,4,4,21413,11503,181.25,2.452,4.373,1
+djb2,Double Hashing,name@depth,4,5,21413,11503,183.53,2.452,4.373,1
+djb2,Double Hashing,name@depth,4,6,21413,11503,178.92,2.452,4.373,1
+djb2,Double Hashing,shadow-chain,4,0,21413,11503,92.39,1.000,1.189,1
+djb2,Double Hashing,shadow-chain,4,1,21413,11503,90.88,1.000,1.189,1
+djb2,Double Hashing,shadow-chain,4,2,21413,11503,84.36,1.000,1.189,1
+djb2,Double Hashing,shadow-chain,4,3,21413,11503,86.12,1.000,1.189,1
+djb2,Double Hashing,shadow-chain,4,4,21413,11503,92.57,1.000,1.189,1
+djb2,Double Hashing,shadow-chain,4,5,21413,11503,83.95,1.000,1.189,1
+djb2,Double Hashing,shadow-chain,4,6,21413,11503,92.30,1.000,1.189,1
+djb2,Robin Hood Hashing,name@depth,4,0,21413,11503,128.07,2.452,2.600,1
+djb2,Robin Hood Hashing,name@depth,4,1,21413,11503,130.34,2.452,2.600,1
+djb2,Robin Hood Hashing,name@depth,4,2,21413,11503,128.65,2.452,2.600,1
+djb2,Robin Hood Hashing,name@depth,4,3,21413,11503,137.10,2.452,2.600,1
+djb2,Robin Hood Hashing,name@depth,4,4,21413,11503,121.76,2.452,2.600,1
+djb2,Robin Hood Hashing,name@depth,4,5,21413,11503,118.42,2.452,2.600,1
+djb2,Robin Hood Hashing,name@depth,4,6,21413,11503,115.11,2.452,2.600,1
+djb2,Robin Hood Hashing,shadow-chain,4,0,21413,11503,57.40,1.000,1.033,1
+djb2,Robin Hood Hashing,shadow-chain,4,1,21413,11503,59.92,1.000,1.033,1
+djb2,Robin Hood Hashing,shadow-chain,4,2,21413,11503,59.14,1.000,1.033,1
+djb2,Robin Hood Hashing,shadow-chain,4,3,21413,11503,57.45,1.000,1.033,1
+djb2,Robin Hood Hashing,shadow-chain,4,4,21413,11503,62.17,1.000,1.033,1
+djb2,Robin Hood Hashing,shadow-chain,4,5,21413,11503,58.29,1.000,1.033,1
+djb2,Robin Hood Hashing,shadow-chain,4,6,21413,11503,56.55,1.000,1.033,1
+djb2,H1: Chaining + Tree,name@depth,4,0,21413,11503,128.17,2.452,0.910,1
+djb2,H1: Chaining + Tree,name@depth,4,1,21413,11503,131.03,2.452,0.910,1
+djb2,H1: Chaining + Tree,name@depth,4,2,21413,11503,130.98,2.452,0.910,1
+djb2,H1: Chaining + Tree,name@depth,4,3,21413,11503,127.85,2.452,0.910,1
+djb2,H1: Chaining + Tree,name@depth,4,4,21413,11503,129.76,2.452,0.910,1
+djb2,H1: Chaining + Tree,name@depth,4,5,21413,11503,128.34,2.452,0.910,1
+djb2,H1: Chaining + Tree,name@depth,4,6,21413,11503,130.81,2.452,0.910,1
+djb2,H1: Chaining + Tree,shadow-chain,4,0,21413,11503,57.33,1.000,0.828,1
+djb2,H1: Chaining + Tree,shadow-chain,4,1,21413,11503,59.53,1.000,0.828,1
+djb2,H1: Chaining + Tree,shadow-chain,4,2,21413,11503,65.51,1.000,0.828,1
+djb2,H1: Chaining + Tree,shadow-chain,4,3,21413,11503,62.36,1.000,0.828,1
+djb2,H1: Chaining + Tree,shadow-chain,4,4,21413,11503,59.88,1.000,0.828,1
+djb2,H1: Chaining + Tree,shadow-chain,4,5,21413,11503,86.18,1.000,0.828,1
+djb2,H1: Chaining + Tree,shadow-chain,4,6,21413,11503,58.82,1.000,0.828,1
+djb2,H2: Open Addr + Overflow,name@depth,4,0,21413,11503,172.54,2.452,4.724,1
+djb2,H2: Open Addr + Overflow,name@depth,4,1,21413,11503,185.58,2.452,4.724,1
+djb2,H2: Open Addr + Overflow,name@depth,4,2,21413,11503,175.88,2.452,4.724,1
+djb2,H2: Open Addr + Overflow,name@depth,4,3,21413,11503,173.14,2.452,4.724,1
+djb2,H2: Open Addr + Overflow,name@depth,4,4,21413,11503,200.35,2.452,4.724,1
+djb2,H2: Open Addr + Overflow,name@depth,4,5,21413,11503,191.75,2.452,4.724,1
+djb2,H2: Open Addr + Overflow,name@depth,4,6,21413,11503,180.32,2.452,4.724,1
+djb2,H2: Open Addr + Overflow,shadow-chain,4,0,21413,11503,84.90,1.000,1.214,1
+djb2,H2: Open Addr + Overflow,shadow-chain,4,1,21413,11503,84.22,1.000,1.214,1
+djb2,H2: Open Addr + Overflow,shadow-chain,4,2,21413,11503,87.51,1.000,1.214,1
+djb2,H2: Open Addr + Overflow,shadow-chain,4,3,21413,11503,83.11,1.000,1.214,1
+djb2,H2: Open Addr + Overflow,shadow-chain,4,4,21413,11503,81.88,1.000,1.214,1
+djb2,H2: Open Addr + Overflow,shadow-chain,4,5,21413,11503,81.38,1.000,1.214,1
+djb2,H2: Open Addr + Overflow,shadow-chain,4,6,21413,11503,83.10,1.000,1.214,1
+djb2,H3: Cuckoo + Stash,name@depth,4,0,21413,11503,207.93,2.452,14.098,1
+djb2,H3: Cuckoo + Stash,name@depth,4,1,21413,11503,207.22,2.452,14.098,1
+djb2,H3: Cuckoo + Stash,name@depth,4,2,21413,11503,206.02,2.452,14.098,1
+djb2,H3: Cuckoo + Stash,name@depth,4,3,21413,11503,199.54,2.452,14.098,1
+djb2,H3: Cuckoo + Stash,name@depth,4,4,21413,11503,205.52,2.452,14.098,1
+djb2,H3: Cuckoo + Stash,name@depth,4,5,21413,11503,222.61,2.452,14.098,1
+djb2,H3: Cuckoo + Stash,name@depth,4,6,21413,11503,214.78,2.452,14.098,1
+djb2,H3: Cuckoo + Stash,shadow-chain,4,0,21413,11503,166.33,1.000,2.464,1
+djb2,H3: Cuckoo + Stash,shadow-chain,4,1,21413,11503,165.01,1.000,2.464,1
+djb2,H3: Cuckoo + Stash,shadow-chain,4,2,21413,11503,169.70,1.000,2.464,1
+djb2,H3: Cuckoo + Stash,shadow-chain,4,3,21413,11503,148.89,1.000,2.464,1
+djb2,H3: Cuckoo + Stash,shadow-chain,4,4,21413,11503,156.98,1.000,2.464,1
+djb2,H3: Cuckoo + Stash,shadow-chain,4,5,21413,11503,127.64,1.000,2.464,1
+djb2,H3: Cuckoo + Stash,shadow-chain,4,6,21413,11503,257.38,1.000,2.464,1
+djb2,Separate Chaining,name@depth,8,0,37319,23595,171.80,3.655,1.018,1
+djb2,Separate Chaining,name@depth,8,1,37319,23595,204.61,3.655,1.018,1
+djb2,Separate Chaining,name@depth,8,2,37319,23595,180.41,3.655,1.018,1
+djb2,Separate Chaining,name@depth,8,3,37319,23595,169.48,3.655,1.018,1
+djb2,Separate Chaining,name@depth,8,4,37319,23595,158.68,3.655,1.018,1
+djb2,Separate Chaining,name@depth,8,5,37319,23595,163.19,3.655,1.018,1
+djb2,Separate Chaining,name@depth,8,6,37319,23595,174.13,3.655,1.018,1
+djb2,Separate Chaining,shadow-chain,8,0,37319,23595,52.12,1.000,0.825,1
+djb2,Separate Chaining,shadow-chain,8,1,37319,23595,54.94,1.000,0.825,1
+djb2,Separate Chaining,shadow-chain,8,2,37319,23595,54.25,1.000,0.825,1
+djb2,Separate Chaining,shadow-chain,8,3,37319,23595,55.04,1.000,0.825,1
+djb2,Separate Chaining,shadow-chain,8,4,37319,23595,54.08,1.000,0.825,1
+djb2,Separate Chaining,shadow-chain,8,5,37319,23595,55.99,1.000,0.825,1
+djb2,Separate Chaining,shadow-chain,8,6,37319,23595,52.17,1.000,0.825,1
+djb2,Linear Probing,name@depth,8,0,37319,23595,225.40,3.655,7.556,1
+djb2,Linear Probing,name@depth,8,1,37319,23595,227.86,3.655,7.556,1
+djb2,Linear Probing,name@depth,8,2,37319,23595,235.72,3.655,7.556,1
+djb2,Linear Probing,name@depth,8,3,37319,23595,238.03,3.655,7.556,1
+djb2,Linear Probing,name@depth,8,4,37319,23595,231.84,3.655,7.556,1
+djb2,Linear Probing,name@depth,8,5,37319,23595,240.97,3.655,7.556,1
+djb2,Linear Probing,name@depth,8,6,37319,23595,244.70,3.655,7.556,1
+djb2,Linear Probing,shadow-chain,8,0,37319,23595,77.94,1.000,1.234,1
+djb2,Linear Probing,shadow-chain,8,1,37319,23595,77.34,1.000,1.234,1
+djb2,Linear Probing,shadow-chain,8,2,37319,23595,76.11,1.000,1.234,1
+djb2,Linear Probing,shadow-chain,8,3,37319,23595,75.70,1.000,1.234,1
+djb2,Linear Probing,shadow-chain,8,4,37319,23595,76.81,1.000,1.234,1
+djb2,Linear Probing,shadow-chain,8,5,37319,23595,78.61,1.000,1.234,1
+djb2,Linear Probing,shadow-chain,8,6,37319,23595,75.80,1.000,1.234,1
+djb2,Quadratic Probing,name@depth,8,0,37319,23595,282.50,3.655,7.076,1
+djb2,Quadratic Probing,name@depth,8,1,37319,23595,302.15,3.655,7.076,1
+djb2,Quadratic Probing,name@depth,8,2,37319,23595,235.31,3.655,7.076,1
+djb2,Quadratic Probing,name@depth,8,3,37319,23595,231.54,3.655,7.076,1
+djb2,Quadratic Probing,name@depth,8,4,37319,23595,225.71,3.655,7.076,1
+djb2,Quadratic Probing,name@depth,8,5,37319,23595,237.95,3.655,7.076,1
+djb2,Quadratic Probing,name@depth,8,6,37319,23595,255.47,3.655,7.076,1
+djb2,Quadratic Probing,shadow-chain,8,0,37319,23595,98.66,1.000,1.223,1
+djb2,Quadratic Probing,shadow-chain,8,1,37319,23595,81.30,1.000,1.223,1
+djb2,Quadratic Probing,shadow-chain,8,2,37319,23595,87.09,1.000,1.223,1
+djb2,Quadratic Probing,shadow-chain,8,3,37319,23595,93.62,1.000,1.223,1
+djb2,Quadratic Probing,shadow-chain,8,4,37319,23595,86.09,1.000,1.223,1
+djb2,Quadratic Probing,shadow-chain,8,5,37319,23595,78.46,1.000,1.223,1
+djb2,Quadratic Probing,shadow-chain,8,6,37319,23595,87.96,1.000,1.223,1
+djb2,Double Hashing,name@depth,8,0,37319,23595,226.39,3.655,6.713,1
+djb2,Double Hashing,name@depth,8,1,37319,23595,261.20,3.655,6.713,1
+djb2,Double Hashing,name@depth,8,2,37319,23595,321.89,3.655,6.713,1
+djb2,Double Hashing,name@depth,8,3,37319,23595,237.22,3.655,6.713,1
+djb2,Double Hashing,name@depth,8,4,37319,23595,229.44,3.655,6.713,1
+djb2,Double Hashing,name@depth,8,5,37319,23595,235.80,3.655,6.713,1
+djb2,Double Hashing,name@depth,8,6,37319,23595,241.90,3.655,6.713,1
+djb2,Double Hashing,shadow-chain,8,0,37319,23595,94.60,1.000,1.224,1
+djb2,Double Hashing,shadow-chain,8,1,37319,23595,83.70,1.000,1.224,1
+djb2,Double Hashing,shadow-chain,8,2,37319,23595,78.35,1.000,1.224,1
+djb2,Double Hashing,shadow-chain,8,3,37319,23595,81.18,1.000,1.224,1
+djb2,Double Hashing,shadow-chain,8,4,37319,23595,85.55,1.000,1.224,1
+djb2,Double Hashing,shadow-chain,8,5,37319,23595,84.08,1.000,1.224,1
+djb2,Double Hashing,shadow-chain,8,6,37319,23595,84.90,1.000,1.224,1
+djb2,Robin Hood Hashing,name@depth,8,0,37319,23595,141.17,3.655,3.948,1
+djb2,Robin Hood Hashing,name@depth,8,1,37319,23595,145.60,3.655,3.948,1
+djb2,Robin Hood Hashing,name@depth,8,2,37319,23595,167.39,3.655,3.948,1
+djb2,Robin Hood Hashing,name@depth,8,3,37319,23595,154.49,3.655,3.948,1
+djb2,Robin Hood Hashing,name@depth,8,4,37319,23595,163.47,3.655,3.948,1
+djb2,Robin Hood Hashing,name@depth,8,5,37319,23595,158.18,3.655,3.948,1
+djb2,Robin Hood Hashing,name@depth,8,6,37319,23595,156.88,3.655,3.948,1
+djb2,Robin Hood Hashing,shadow-chain,8,0,37319,23595,54.05,1.000,1.041,1
+djb2,Robin Hood Hashing,shadow-chain,8,1,37319,23595,53.56,1.000,1.041,1
+djb2,Robin Hood Hashing,shadow-chain,8,2,37319,23595,54.59,1.000,1.041,1
+djb2,Robin Hood Hashing,shadow-chain,8,3,37319,23595,53.41,1.000,1.041,1
+djb2,Robin Hood Hashing,shadow-chain,8,4,37319,23595,58.77,1.000,1.041,1
+djb2,Robin Hood Hashing,shadow-chain,8,5,37319,23595,52.66,1.000,1.041,1
+djb2,Robin Hood Hashing,shadow-chain,8,6,37319,23595,53.49,1.000,1.041,1
+djb2,H1: Chaining + Tree,name@depth,8,0,37319,23595,171.05,3.655,1.018,1
+djb2,H1: Chaining + Tree,name@depth,8,1,37319,23595,169.88,3.655,1.018,1
+djb2,H1: Chaining + Tree,name@depth,8,2,37319,23595,177.85,3.655,1.018,1
+djb2,H1: Chaining + Tree,name@depth,8,3,37319,23595,174.03,3.655,1.018,1
+djb2,H1: Chaining + Tree,name@depth,8,4,37319,23595,168.23,3.655,1.018,1
+djb2,H1: Chaining + Tree,name@depth,8,5,37319,23595,189.70,3.655,1.018,1
+djb2,H1: Chaining + Tree,name@depth,8,6,37319,23595,170.58,3.655,1.018,1
+djb2,H1: Chaining + Tree,shadow-chain,8,0,37319,23595,60.44,1.000,0.825,1
+djb2,H1: Chaining + Tree,shadow-chain,8,1,37319,23595,60.27,1.000,0.825,1
+djb2,H1: Chaining + Tree,shadow-chain,8,2,37319,23595,59.05,1.000,0.825,1
+djb2,H1: Chaining + Tree,shadow-chain,8,3,37319,23595,58.63,1.000,0.825,1
+djb2,H1: Chaining + Tree,shadow-chain,8,4,37319,23595,56.67,1.000,0.825,1
+djb2,H1: Chaining + Tree,shadow-chain,8,5,37319,23595,58.35,1.000,0.825,1
+djb2,H1: Chaining + Tree,shadow-chain,8,6,37319,23595,56.68,1.000,0.825,1
+djb2,H2: Open Addr + Overflow,name@depth,8,0,37319,23595,203.74,3.655,7.202,1
+djb2,H2: Open Addr + Overflow,name@depth,8,1,37319,23595,192.62,3.655,7.202,1
+djb2,H2: Open Addr + Overflow,name@depth,8,2,37319,23595,192.27,3.655,7.202,1
+djb2,H2: Open Addr + Overflow,name@depth,8,3,37319,23595,214.88,3.655,7.202,1
+djb2,H2: Open Addr + Overflow,name@depth,8,4,37319,23595,208.29,3.655,7.202,1
+djb2,H2: Open Addr + Overflow,name@depth,8,5,37319,23595,203.65,3.655,7.202,1
+djb2,H2: Open Addr + Overflow,name@depth,8,6,37319,23595,251.61,3.655,7.202,1
+djb2,H2: Open Addr + Overflow,shadow-chain,8,0,37319,23595,71.73,1.000,1.234,1
+djb2,H2: Open Addr + Overflow,shadow-chain,8,1,37319,23595,70.91,1.000,1.234,1
+djb2,H2: Open Addr + Overflow,shadow-chain,8,2,37319,23595,81.14,1.000,1.234,1
+djb2,H2: Open Addr + Overflow,shadow-chain,8,3,37319,23595,71.96,1.000,1.234,1
+djb2,H2: Open Addr + Overflow,shadow-chain,8,4,37319,23595,73.81,1.000,1.234,1
+djb2,H2: Open Addr + Overflow,shadow-chain,8,5,37319,23595,72.52,1.000,1.234,1
+djb2,H2: Open Addr + Overflow,shadow-chain,8,6,37319,23595,78.75,1.000,1.234,1
+djb2,H3: Cuckoo + Stash,name@depth,8,0,37319,23595,248.68,3.655,23.785,1
+djb2,H3: Cuckoo + Stash,name@depth,8,1,37319,23595,258.00,3.655,23.785,1
+djb2,H3: Cuckoo + Stash,name@depth,8,2,37319,23595,278.28,3.655,23.785,1
+djb2,H3: Cuckoo + Stash,name@depth,8,3,37319,23595,260.92,3.655,23.785,1
+djb2,H3: Cuckoo + Stash,name@depth,8,4,37319,23595,251.31,3.655,23.785,1
+djb2,H3: Cuckoo + Stash,name@depth,8,5,37319,23595,260.79,3.655,23.785,1
+djb2,H3: Cuckoo + Stash,name@depth,8,6,37319,23595,249.03,3.655,23.785,1
+djb2,H3: Cuckoo + Stash,shadow-chain,8,0,37319,23595,98.30,1.000,2.535,1
+djb2,H3: Cuckoo + Stash,shadow-chain,8,1,37319,23595,103.57,1.000,2.535,1
+djb2,H3: Cuckoo + Stash,shadow-chain,8,2,37319,23595,95.52,1.000,2.535,1
+djb2,H3: Cuckoo + Stash,shadow-chain,8,3,37319,23595,95.74,1.000,2.535,1
+djb2,H3: Cuckoo + Stash,shadow-chain,8,4,37319,23595,97.23,1.000,2.535,1
+djb2,H3: Cuckoo + Stash,shadow-chain,8,5,37319,23595,98.28,1.000,2.535,1
+djb2,H3: Cuckoo + Stash,shadow-chain,8,6,37319,23595,98.07,1.000,2.535,1
+djb2,Separate Chaining,name@depth,16,0,68469,46910,243.29,5.955,1.363,1
+djb2,Separate Chaining,name@depth,16,1,68469,46910,239.03,5.955,1.363,1
+djb2,Separate Chaining,name@depth,16,2,68469,46910,232.56,5.955,1.363,1
+djb2,Separate Chaining,name@depth,16,3,68469,46910,329.64,5.955,1.363,1
+djb2,Separate Chaining,name@depth,16,4,68469,46910,326.07,5.955,1.363,1
+djb2,Separate Chaining,name@depth,16,5,68469,46910,257.55,5.955,1.363,1
+djb2,Separate Chaining,name@depth,16,6,68469,46910,263.85,5.955,1.363,1
+djb2,Separate Chaining,shadow-chain,16,0,68469,46910,55.48,1.000,0.839,1
+djb2,Separate Chaining,shadow-chain,16,1,68469,46910,55.51,1.000,0.839,1
+djb2,Separate Chaining,shadow-chain,16,2,68469,46910,55.48,1.000,0.839,1
+djb2,Separate Chaining,shadow-chain,16,3,68469,46910,50.84,1.000,0.839,1
+djb2,Separate Chaining,shadow-chain,16,4,68469,46910,51.62,1.000,0.839,1
+djb2,Separate Chaining,shadow-chain,16,5,68469,46910,52.40,1.000,0.839,1
+djb2,Separate Chaining,shadow-chain,16,6,68469,46910,55.06,1.000,0.839,1
+djb2,Linear Probing,name@depth,16,0,68469,46910,452.83,5.955,12.698,1
+djb2,Linear Probing,name@depth,16,1,68469,46910,466.18,5.955,12.698,1
+djb2,Linear Probing,name@depth,16,2,68469,46910,348.02,5.955,12.698,1
+djb2,Linear Probing,name@depth,16,3,68469,46910,336.73,5.955,12.698,1
+djb2,Linear Probing,name@depth,16,4,68469,46910,431.81,5.955,12.698,1
+djb2,Linear Probing,name@depth,16,5,68469,46910,463.73,5.955,12.698,1
+djb2,Linear Probing,name@depth,16,6,68469,46910,307.49,5.955,12.698,1
+djb2,Linear Probing,shadow-chain,16,0,68469,46910,66.57,1.000,1.290,1
+djb2,Linear Probing,shadow-chain,16,1,68469,46910,66.19,1.000,1.290,1
+djb2,Linear Probing,shadow-chain,16,2,68469,46910,73.14,1.000,1.290,1
+djb2,Linear Probing,shadow-chain,16,3,68469,46910,76.20,1.000,1.290,1
+djb2,Linear Probing,shadow-chain,16,4,68469,46910,72.78,1.000,1.290,1
+djb2,Linear Probing,shadow-chain,16,5,68469,46910,83.57,1.000,1.290,1
+djb2,Linear Probing,shadow-chain,16,6,68469,46910,81.03,1.000,1.290,1
+djb2,Quadratic Probing,name@depth,16,0,68469,46910,368.70,5.955,12.013,1
+djb2,Quadratic Probing,name@depth,16,1,68469,46910,360.24,5.955,12.013,1
+djb2,Quadratic Probing,name@depth,16,2,68469,46910,352.08,5.955,12.013,1
+djb2,Quadratic Probing,name@depth,16,3,68469,46910,362.82,5.955,12.013,1
+djb2,Quadratic Probing,name@depth,16,4,68469,46910,352.12,5.955,12.013,1
+djb2,Quadratic Probing,name@depth,16,5,68469,46910,347.95,5.955,12.013,1
+djb2,Quadratic Probing,name@depth,16,6,68469,46910,352.08,5.955,12.013,1
+djb2,Quadratic Probing,shadow-chain,16,0,68469,46910,79.24,1.000,1.277,1
+djb2,Quadratic Probing,shadow-chain,16,1,68469,46910,73.19,1.000,1.277,1
+djb2,Quadratic Probing,shadow-chain,16,2,68469,46910,75.28,1.000,1.277,1
+djb2,Quadratic Probing,shadow-chain,16,3,68469,46910,75.76,1.000,1.277,1
+djb2,Quadratic Probing,shadow-chain,16,4,68469,46910,75.43,1.000,1.277,1
+djb2,Quadratic Probing,shadow-chain,16,5,68469,46910,78.93,1.000,1.277,1
+djb2,Quadratic Probing,shadow-chain,16,6,68469,46910,78.65,1.000,1.277,1
+djb2,Double Hashing,name@depth,16,0,68469,46910,366.83,5.955,11.295,1
+djb2,Double Hashing,name@depth,16,1,68469,46910,344.82,5.955,11.295,1
+djb2,Double Hashing,name@depth,16,2,68469,46910,392.26,5.955,11.295,1
+djb2,Double Hashing,name@depth,16,3,68469,46910,374.24,5.955,11.295,1
+djb2,Double Hashing,name@depth,16,4,68469,46910,368.07,5.955,11.295,1
+djb2,Double Hashing,name@depth,16,5,68469,46910,443.45,5.955,11.295,1
+djb2,Double Hashing,name@depth,16,6,68469,46910,398.01,5.955,11.295,1
+djb2,Double Hashing,shadow-chain,16,0,68469,46910,85.48,1.000,1.284,1
+djb2,Double Hashing,shadow-chain,16,1,68469,46910,82.54,1.000,1.284,1
+djb2,Double Hashing,shadow-chain,16,2,68469,46910,86.33,1.000,1.284,1
+djb2,Double Hashing,shadow-chain,16,3,68469,46910,84.78,1.000,1.284,1
+djb2,Double Hashing,shadow-chain,16,4,68469,46910,84.85,1.000,1.284,1
+djb2,Double Hashing,shadow-chain,16,5,68469,46910,99.98,1.000,1.284,1
+djb2,Double Hashing,shadow-chain,16,6,68469,46910,118.13,1.000,1.284,1
+djb2,Robin Hood Hashing,name@depth,16,0,68469,46910,241.59,5.955,6.646,1
+djb2,Robin Hood Hashing,name@depth,16,1,68469,46910,269.30,5.955,6.646,1
+djb2,Robin Hood Hashing,name@depth,16,2,68469,46910,241.83,5.955,6.646,1
+djb2,Robin Hood Hashing,name@depth,16,3,68469,46910,245.22,5.955,6.646,1
+djb2,Robin Hood Hashing,name@depth,16,4,68469,46910,242.52,5.955,6.646,1
+djb2,Robin Hood Hashing,name@depth,16,5,68469,46910,231.76,5.955,6.646,1
+djb2,Robin Hood Hashing,name@depth,16,6,68469,46910,251.28,5.955,6.646,1
+djb2,Robin Hood Hashing,shadow-chain,16,0,68469,46910,52.44,1.000,1.061,1
+djb2,Robin Hood Hashing,shadow-chain,16,1,68469,46910,51.46,1.000,1.061,1
+djb2,Robin Hood Hashing,shadow-chain,16,2,68469,46910,47.61,1.000,1.061,1
+djb2,Robin Hood Hashing,shadow-chain,16,3,68469,46910,51.63,1.000,1.061,1
+djb2,Robin Hood Hashing,shadow-chain,16,4,68469,46910,51.17,1.000,1.061,1
+djb2,Robin Hood Hashing,shadow-chain,16,5,68469,46910,53.03,1.000,1.061,1
+djb2,Robin Hood Hashing,shadow-chain,16,6,68469,46910,50.19,1.000,1.061,1
+djb2,H1: Chaining + Tree,name@depth,16,0,68469,46910,246.80,5.955,1.363,1
+djb2,H1: Chaining + Tree,name@depth,16,1,68469,46910,245.91,5.955,1.363,1
+djb2,H1: Chaining + Tree,name@depth,16,2,68469,46910,252.93,5.955,1.363,1
+djb2,H1: Chaining + Tree,name@depth,16,3,68469,46910,327.59,5.955,1.363,1
+djb2,H1: Chaining + Tree,name@depth,16,4,68469,46910,296.35,5.955,1.363,1
+djb2,H1: Chaining + Tree,name@depth,16,5,68469,46910,264.47,5.955,1.363,1
+djb2,H1: Chaining + Tree,name@depth,16,6,68469,46910,231.45,5.955,1.363,1
+djb2,H1: Chaining + Tree,shadow-chain,16,0,68469,46910,57.39,1.000,0.839,1
+djb2,H1: Chaining + Tree,shadow-chain,16,1,68469,46910,59.64,1.000,0.839,1
+djb2,H1: Chaining + Tree,shadow-chain,16,2,68469,46910,57.70,1.000,0.839,1
+djb2,H1: Chaining + Tree,shadow-chain,16,3,68469,46910,58.22,1.000,0.839,1
+djb2,H1: Chaining + Tree,shadow-chain,16,4,68469,46910,55.54,1.000,0.839,1
+djb2,H1: Chaining + Tree,shadow-chain,16,5,68469,46910,54.91,1.000,0.839,1
+djb2,H1: Chaining + Tree,shadow-chain,16,6,68469,46910,54.83,1.000,0.839,1
+djb2,H2: Open Addr + Overflow,name@depth,16,0,68469,46910,334.69,5.955,12.108,1
+djb2,H2: Open Addr + Overflow,name@depth,16,1,68469,46910,325.92,5.955,12.108,1
+djb2,H2: Open Addr + Overflow,name@depth,16,2,68469,46910,368.77,5.955,12.108,1
+djb2,H2: Open Addr + Overflow,name@depth,16,3,68469,46910,368.50,5.955,12.108,1
+djb2,H2: Open Addr + Overflow,name@depth,16,4,68469,46910,355.47,5.955,12.108,1
+djb2,H2: Open Addr + Overflow,name@depth,16,5,68469,46910,330.36,5.955,12.108,1
+djb2,H2: Open Addr + Overflow,name@depth,16,6,68469,46910,342.02,5.955,12.108,1
+djb2,H2: Open Addr + Overflow,shadow-chain,16,0,68469,46910,71.95,1.000,1.284,1
+djb2,H2: Open Addr + Overflow,shadow-chain,16,1,68469,46910,66.74,1.000,1.284,1
+djb2,H2: Open Addr + Overflow,shadow-chain,16,2,68469,46910,63.49,1.000,1.284,1
+djb2,H2: Open Addr + Overflow,shadow-chain,16,3,68469,46910,64.25,1.000,1.284,1
+djb2,H2: Open Addr + Overflow,shadow-chain,16,4,68469,46910,64.10,1.000,1.284,1
+djb2,H2: Open Addr + Overflow,shadow-chain,16,5,68469,46910,63.68,1.000,1.284,1
+djb2,H2: Open Addr + Overflow,shadow-chain,16,6,68469,46910,63.49,1.000,1.284,1
+djb2,H3: Cuckoo + Stash,name@depth,16,0,68469,46910,416.42,5.955,42.237,1
+djb2,H3: Cuckoo + Stash,name@depth,16,1,68469,46910,381.43,5.955,42.237,1
+djb2,H3: Cuckoo + Stash,name@depth,16,2,68469,46910,382.89,5.955,42.237,1
+djb2,H3: Cuckoo + Stash,name@depth,16,3,68469,46910,388.10,5.955,42.237,1
+djb2,H3: Cuckoo + Stash,name@depth,16,4,68469,46910,395.75,5.955,42.237,1
+djb2,H3: Cuckoo + Stash,name@depth,16,5,68469,46910,381.55,5.955,42.237,1
+djb2,H3: Cuckoo + Stash,name@depth,16,6,68469,46910,375.67,5.955,42.237,1
+djb2,H3: Cuckoo + Stash,shadow-chain,16,0,68469,46910,85.00,1.000,2.560,1
+djb2,H3: Cuckoo + Stash,shadow-chain,16,1,68469,46910,85.46,1.000,2.560,1
+djb2,H3: Cuckoo + Stash,shadow-chain,16,2,68469,46910,85.00,1.000,2.560,1
+djb2,H3: Cuckoo + Stash,shadow-chain,16,3,68469,46910,84.33,1.000,2.560,1
+djb2,H3: Cuckoo + Stash,shadow-chain,16,4,68469,46910,91.38,1.000,2.560,1
+djb2,H3: Cuckoo + Stash,shadow-chain,16,5,68469,46910,89.54,1.000,2.560,1
+djb2,H3: Cuckoo + Stash,shadow-chain,16,6,68469,46910,87.62,1.000,2.560,1

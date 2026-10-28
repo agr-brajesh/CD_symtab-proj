@@ -1,0 +1,5 @@
+corpus,files,source_lines,identifier_tokens,unique_identifiers_global,mean_unique_per_file,max_unique_per_file,scope_events,decl_events,use_events,max_brace_depth,mean_use_hit_ratio_ref
+lua,35,26044,43445,3351,200.7,589,3200,6466,37321,8,0.55
+zlib,15,9539,13897,878,102.9,297,771,1109,12850,9,0.55
+redis,102,136374,210029,12833,260.4,2636,15963,23580,186083,9,0.506
+sqlite,128,202251,280332,13835,267.5,1243,23236,30635,250326,10,0.528

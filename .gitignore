@@ -1,0 +1,13 @@
+benchmark
+symtab_cli
+experiments
+test_correctness
+corpora/
+manuscript/
+__pycache__/
+*.pyc
+runexp.sh
+runexp2.sh
+results/log_*
+results/t0
+results/t_*

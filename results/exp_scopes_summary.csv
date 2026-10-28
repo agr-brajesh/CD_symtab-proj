@@ -1,0 +1,81 @@
+strategy,design,max_depth,ns,ns_q1,ns_q3,lk,pr
+Double Hashing,name@depth,1,172.66,167.335,199.89,1.611,3.074
+Double Hashing,name@depth,2,164.36,156.47,166.515,1.88,3.327
+Double Hashing,name@depth,4,181.25,179.82,183.905,2.452,4.373
+Double Hashing,name@depth,8,237.22,232.62,251.55,3.655,6.713
+Double Hashing,name@depth,16,374.24,367.45,395.135,5.955,11.295
+Double Hashing,shadow-chain,1,124.91,118.08,146.3,1.0,1.178
+Double Hashing,shadow-chain,2,99.32,96.7,101.495,1.0,1.187
+Double Hashing,shadow-chain,4,90.88,85.24000000000001,92.345,1.0,1.189
+Double Hashing,shadow-chain,8,84.08,82.44,85.225,1.0,1.224
+Double Hashing,shadow-chain,16,85.48,84.815,93.155,1.0,1.284
+H1: Chaining + Tree,name@depth,1,134.13,124.235,136.97,1.611,0.842
+H1: Chaining + Tree,name@depth,2,136.26,124.57499999999999,156.535,1.88,0.866
+H1: Chaining + Tree,name@depth,4,129.76,128.255,130.89499999999998,2.452,0.91
+H1: Chaining + Tree,name@depth,8,171.05,170.23000000000002,175.94,3.655,1.018
+H1: Chaining + Tree,name@depth,16,252.93,246.35500000000002,280.41,5.955,1.363
+H1: Chaining + Tree,shadow-chain,1,77.74,76.685,78.36000000000001,1.0,0.804
+H1: Chaining + Tree,shadow-chain,2,64.75,64.53999999999999,71.75999999999999,1.0,0.822
+H1: Chaining + Tree,shadow-chain,4,59.88,59.175,63.935,1.0,0.828
+H1: Chaining + Tree,shadow-chain,8,58.63,57.515,59.66,1.0,0.825
+H1: Chaining + Tree,shadow-chain,16,57.39,55.224999999999994,57.96,1.0,0.839
+H2: Open Addr + Overflow,name@depth,1,156.04,151.865,156.435,1.611,3.184
+H2: Open Addr + Overflow,name@depth,2,143.58,141.41,150.79000000000002,1.88,3.555
+H2: Open Addr + Overflow,name@depth,4,180.32,174.51,188.66500000000002,2.452,4.724
+H2: Open Addr + Overflow,name@depth,8,203.74,198.135,211.58499999999998,3.655,7.202
+H2: Open Addr + Overflow,name@depth,16,342.02,332.525,361.985,5.955,12.108
+H2: Open Addr + Overflow,shadow-chain,1,94.64,94.045,95.93,1.0,1.206
+H2: Open Addr + Overflow,shadow-chain,2,75.94,75.85499999999999,78.55000000000001,1.0,1.192
+H2: Open Addr + Overflow,shadow-chain,4,83.11,82.49,84.56,1.0,1.214
+H2: Open Addr + Overflow,shadow-chain,8,72.52,71.845,76.28,1.0,1.234
+H2: Open Addr + Overflow,shadow-chain,16,64.1,63.585,65.495,1.0,1.284
+H3: Cuckoo + Stash,name@depth,1,174.87,169.495,175.685,1.611,7.446
+H3: Cuckoo + Stash,name@depth,2,166.82,164.24,174.595,1.88,9.532
+H3: Cuckoo + Stash,name@depth,4,207.22,205.77,211.35500000000002,2.452,14.098
+H3: Cuckoo + Stash,name@depth,8,258.0,250.17000000000002,260.855,3.655,23.785
+H3: Cuckoo + Stash,name@depth,16,382.89,381.49,391.925,5.955,42.237
+H3: Cuckoo + Stash,shadow-chain,1,133.57,124.32,142.51999999999998,1.0,2.551
+H3: Cuckoo + Stash,shadow-chain,2,119.14,114.53999999999999,121.44,1.0,2.474
+H3: Cuckoo + Stash,shadow-chain,4,165.01,152.935,168.015,1.0,2.464
+H3: Cuckoo + Stash,shadow-chain,8,98.07,96.485,98.28999999999999,1.0,2.535
+H3: Cuckoo + Stash,shadow-chain,16,85.46,85.0,88.58000000000001,1.0,2.56
+Linear Probing,name@depth,1,156.39,145.715,180.985,1.611,3.308
+Linear Probing,name@depth,2,140.85,140.49,146.84,1.88,3.673
+Linear Probing,name@depth,4,174.94,172.195,179.165,2.452,4.958
+Linear Probing,name@depth,8,235.72,229.85000000000002,239.5,3.655,7.556
+Linear Probing,name@depth,16,431.81,342.375,458.28,5.955,12.698
+Linear Probing,shadow-chain,1,140.55,138.245,142.13,1.0,1.207
+Linear Probing,shadow-chain,2,79.73,78.88499999999999,80.5,1.0,1.192
+Linear Probing,shadow-chain,4,76.27,74.175,77.22,1.0,1.216
+Linear Probing,shadow-chain,8,76.81,75.955,77.64,1.0,1.234
+Linear Probing,shadow-chain,16,73.14,69.675,78.61500000000001,1.0,1.29
+Quadratic Probing,name@depth,1,155.87,153.82999999999998,157.645,1.611,3.076
+Quadratic Probing,name@depth,2,141.19,140.15,142.215,1.88,3.436
+Quadratic Probing,name@depth,4,161.27,160.51,167.31,2.452,4.561
+Quadratic Probing,name@depth,8,237.95,233.425,268.985,3.655,7.076
+Quadratic Probing,name@depth,16,352.12,352.08,361.53,5.955,12.013
+Quadratic Probing,shadow-chain,1,106.56,102.745,107.72,1.0,1.184
+Quadratic Probing,shadow-chain,2,86.76,82.59,88.655,1.0,1.181
+Quadratic Probing,shadow-chain,4,75.96,75.41,76.12,1.0,1.2
+Quadratic Probing,shadow-chain,8,87.09,83.695,90.78999999999999,1.0,1.223
+Quadratic Probing,shadow-chain,16,75.76,75.355,78.79,1.0,1.277
+Robin Hood Hashing,name@depth,1,130.22,129.48,168.82,1.611,1.703
+Robin Hood Hashing,name@depth,2,122.31,111.93,150.245,1.88,1.981
+Robin Hood Hashing,name@depth,4,128.07,120.09,129.495,2.452,2.6
+Robin Hood Hashing,name@depth,8,156.88,150.04500000000002,160.825,3.655,3.948
+Robin Hood Hashing,name@depth,16,242.52,241.71,248.25,5.955,6.646
+Robin Hood Hashing,shadow-chain,1,72.82,71.105,75.875,1.0,1.025
+Robin Hood Hashing,shadow-chain,2,58.45,57.215,59.03,1.0,1.032
+Robin Hood Hashing,shadow-chain,4,58.29,57.425,59.53,1.0,1.033
+Robin Hood Hashing,shadow-chain,8,53.56,53.45,54.32,1.0,1.041
+Robin Hood Hashing,shadow-chain,16,51.46,50.68,52.035,1.0,1.061
+Separate Chaining,name@depth,1,128.81,127.60499999999999,137.16,1.611,0.842
+Separate Chaining,name@depth,2,120.5,119.42500000000001,123.12,1.88,0.866
+Separate Chaining,name@depth,4,126.65,126.16499999999999,132.445,2.452,0.91
+Separate Chaining,name@depth,8,171.8,166.33499999999998,177.26999999999998,3.655,1.018
+Separate Chaining,name@depth,16,257.55,241.16,294.96000000000004,5.955,1.363
+Separate Chaining,shadow-chain,1,106.91,83.66999999999999,110.465,1.0,0.804
+Separate Chaining,shadow-chain,2,59.77,59.34,60.605000000000004,1.0,0.822
+Separate Chaining,shadow-chain,4,63.52,58.57,72.74000000000001,1.0,0.828
+Separate Chaining,shadow-chain,8,54.25,53.125,54.989999999999995,1.0,0.825
+Separate Chaining,shadow-chain,16,55.06,52.01,55.48,1.0,0.839
