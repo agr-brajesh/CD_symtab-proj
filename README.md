@@ -12,6 +12,7 @@
 > 
 > | Document | Description | Format / Direct Link |
 > | :--- | :--- | :--- |
+> | 🎬 **Project Demo Video** | Full video walkthrough, code architecture, and demo pitch | [**Watch Video (Google Drive)** ↗](https://drive.google.com/file/d/1IGUb7j2q9dAjL7pHqyH-WC9Cdy8v3r-5/view?usp=vids_web) |
 > | 📄 **Research Paper (Draft 2)** | Full 16-page manuscript formatted for *IEEE Access*: *"Performance Evaluation of a Compiler's Symbol Table Implementation: Collision Resolution Strategies"* | [**Open `docs/Manuscript_Draft2.pdf`**](docs/Manuscript_Draft2.pdf) *(GitHub PDF Viewer)* |
 > | 📦 **Overleaf LaTeX Package** | Complete Overleaf-ready project archive including all source `.tex` files, figures, and author photos | [**Download `symbol_table_overleaf.zip`**](docs/symbol_table_overleaf.zip) |
 > | 📝 **Overleaf LaTeX Source** | IEEE Access article LaTeX source file | [**View `manuscript/access.tex`**](manuscript/access.tex) |
@@ -33,8 +34,9 @@
 ---
 
 ## Quick start (for the demo)
-Double-click **lab/index.html** - works offline in any modern browser, nothing to install.  
-Tabs: Visualizer (animated probe traces) - Benchmark (change any value, sweep any parameter, charts, CSV/PNG) - Compiler (paste real source code) - Hash Lab - Tests (correctness proof) - Guide.
+- 🎬 **Project Demo Video:** [**Watch Video on Google Drive** ↗](https://drive.google.com/file/d/1IGUb7j2q9dAjL7pHqyH-WC9Cdy8v3r-5/view?usp=vids_web)
+- 💻 **Interactive Browser Lab:** Double-click **`lab/index.html`** - works offline in any modern browser, nothing to install.  
+  Tabs: Visualizer (animated probe traces) - Benchmark (change any value, sweep any parameter, charts, CSV/PNG) - Compiler (paste real source code) - Hash Lab - Tests (correctness proof) - Guide.
 
 ## System requirements
 - Linux or macOS (tested on Ubuntu 24.04.4 LTS, x86-64); Windows users can use WSL
@@ -55,6 +57,7 @@ make all experiments test_correctness
 ## Run
 | goal | command |
 |---|---|
+| watch project demo video | [Google Drive Demo Video](https://drive.google.com/file/d/1IGUb7j2q9dAjL7pHqyH-WC9Cdy8v3r-5/view?usp=vids_web) |
 | correctness tests (1.44 M checks, sanitizers) | `make test` |
 | reproduce every number and figure of the manuscript | `sh run_all.sh` |
 | download the four real-code corpora (Lua, zlib, Redis, SQLite) | `sh fetch_corpora.sh` |
