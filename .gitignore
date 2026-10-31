@@ -3,7 +3,6 @@ symtab_cli
 experiments
 test_correctness
 corpora/
-manuscript/
 __pycache__/
 *.pyc
 runexp.sh
